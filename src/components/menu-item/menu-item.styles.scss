@@ -20,17 +20,13 @@
     & .content {
       opacity: 0.9;
     }
-
   }
-
+//woman or man img 
   &.large {
     height: 380px;
-
     @media screen and (max-width: 610px) {
-       width: 100%;
-    
+      width: 100%;
     }
-
   }
 
   &:first-child {
