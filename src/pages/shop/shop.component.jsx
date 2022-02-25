@@ -1,5 +1,6 @@
 import React from "react"
 import shop_data from "./shop.data.js"
+import ProductsPreview from "../../components/products-preview-component/products-preview.component.jsx.jsx"
 
 class ShopPage extends React.Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class ShopPage extends React.Component {
   }
 
   render() {
-    return <div> shop_data </div>
+    return <ProductsPreview />  
   }
 }
 
