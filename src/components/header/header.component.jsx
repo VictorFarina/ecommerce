@@ -5,15 +5,11 @@ import { ReactComponent as Logo } from '../../assets/logo.svg'
 
 const Header = () => (
   <div className='header'>
-    <Link to='/' className='logo-container'> <Logo/> </Link>
-     <div className='options'>
-        <Link to='/shop' className='option'>
-            Shop
-        </Link>
-         <Link to='/contact' className='option'>
-        Contact
-        </Link>
-    </div>
+      <Link to='/' className='logo-container'> <Logo/> </Link>
+      <div className='options'>
+        <Link to='/shop' className='option'>Shop</Link>
+        <Link to='/contact' className='option'>Contact</Link>
+      </div>
   </div>
 )
 
